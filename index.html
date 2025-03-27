@@ -181,7 +181,24 @@
           <img src="./static/images/main_figure.png" alt="Method Overview" style="max-width: 100%; height: auto; margin-bottom: 5px;">
           <p>
             <strong>Overview of ProtoDepth.</strong> (a) In the agnostic setting, a prototype set is selected by maximizing the cosine similarity between an input sample descriptor and the learned domain descriptors. In the incremental setting, the domain identity is known. (b)
-            At inference, the similarity between the frozen queries and the keys of the selected prototype set determines how the learned prototypes contribute as local (additive) biases to the latent features. Additionally, a global (multiplicative) bias is applied using a $1\times1$ depthwise convolution.
+            At inference, the similarity between the frozen queries and the keys of the selected prototype set determines how the learned prototypes contribute as local (additive) biases to the latent features. Additionally, a global (multiplicative) bias is applied using a 1×1 depthwise convolution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Visualization</h2>
+        <div class="content has-text-centered">
+          <img src="./static/images/qualitative_v2.png" alt="Qualitative Comparison" style="max-width: 100%; height: auto; margin-bottom: 0px;">
+          <p>
+            <strong>Qualitative comparison</strong> of ProtoDepth and baseline methods using VOICED on <strong>KITTI</strong>> after continual training on <strong>Waymo</strong>. (a) Input sample from KITTI, (b) Baseline methods exhibit significant forgetting, particularly for small-surface-area objects (e.g., street signs and lamp posts) where sparse depth is limited, and photometric priors from KITTI are critical. In contrast, ProtoDepth produces high-fidelity depth predictions, effectively mitigating forgetting despite the large domain gap between KITTI and Waymo.
           </p>
         </div>
       </div>
