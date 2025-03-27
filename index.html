@@ -116,29 +116,40 @@
   </div>
 </section>
 
+
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="columns is-vcentered">
+    <style>
+      .demo-img {
+        width: 480px;
+        height: auto;
+      }
+      .label-text {
+        color: black;
+      }
+    </style>
+    <div class="columns is-vcentered" style="gap: 100px;">
       <div class="column has-text-centered">
-        <img src="./static/demos/scene.png" alt="NYUv2 Scene" style="width: 388px; height: 291px; object-fit: cover;">
-        <p class="subtitle">NYUv2 Scene</p>
+        <p class="subtitle label-text">NYUv2 Scene</p>
+        <img class="demo-img" src="./static/demos/scene.png" alt="NYUv2 Scene">
       </div>
       <div class="column has-text-centered">
-        <img src="./static/demos/base_demo.gif" alt="CMP [CVPR '24]" style="width: 388px; height: 291px; object-fit: cover;">
-        <p class="subtitle">CMP [CVPR '24]</p>
+        <p class="subtitle label-text">CMP [CVPR '24]</p>
+        <img class="demo-img" src="./static/demos/base_demo.gif" alt="CMP [CVPR '24]">
       </div>
       <div class="column has-text-centered">
-        <img src="./static/demos/ours_demo.gif" alt="Ours [CVPR '25]" style="width: 388px; height: 291px; object-fit: cover;">
-        <p class="subtitle">Ours [CVPR '25]</p>
+        <p class="subtitle label-text">Ours [CVPR '25]</p>
+        <img class="demo-img" src="./static/demos/ours_demo.gif" alt="Ours [CVPR '25]">
       </div>
     </div>
     <div class="has-text-centered" style="margin-top: 20px;">
-      <p class="title is-4">
+      <p class="subtitle">
         Demonstrating robust continual depth completion: performance during adaptation from indoor (NYUv2) to outdoor (KITTI) environments.
       </p>
     </div>
   </div>
 </section>
+
 
 
 <section class="section">
