@@ -1,14 +1,14 @@
-# Nerfies
+# [CVPR 2025] ProtoDepth
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [ProtoDepth website](https://protodepth.github.io).
 
-If you find Nerfies useful for your work please cite:
+If you find ProtoDepth useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{rim2025protodepth,
+  title={ProtoDepth: Unsupervised Continual Depth Completion with Prototypes},
+  author={Rim, Patrick and Park, Hyoungseob and Gangopadhyay, S and Zeng, Ziyao and Chung, Younjoon and Wong, Alex},
+  journal={arXiv preprint arXiv:2503.12745},
+  year={2025}
 }
 ```
 
