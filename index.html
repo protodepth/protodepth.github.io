@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/yale.svg">
+  <link rel="icon" href="./static/images/yale-cropped.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -64,7 +64,7 @@
               <a href="https://fuzzythecat.github.io/">Younjoon Chung</a>,
             </span>
             <span class="author-block">
-              <a href="https://vision.cs.yale.edu/members/alex-wong.html">Alex Wong</a>,
+              <a href="https://vision.cs.yale.edu/members/alex-wong.html">Alex Wong</a>
             </span>
           </div>
 
@@ -118,16 +118,24 @@
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
+    <div class="columns is-vcentered">
+      <div class="column has-text-centered">
+        <img src="./static/demos/scene.png" alt="NYUv2 Scene" style="width: 388px; height: 291px; object-fit: cover;">
+        <p class="subtitle">NYUv2 Scene</p>
+      </div>
+      <div class="column has-text-centered">
+        <img src="./static/demos/base_demo.gif" alt="CMP [CVPR '24]" style="width: 388px; height: 291px; object-fit: cover;">
+        <p class="subtitle">CMP [CVPR '24]</p>
+      </div>
+      <div class="column has-text-centered">
+        <img src="./static/demos/ours_demo.gif" alt="Ours [CVPR '25]" style="width: 388px; height: 291px; object-fit: cover;">
+        <p class="subtitle">Ours [CVPR '25]</p>
+      </div>
+    </div>
+    <div class="has-text-centered" style="margin-top: 20px;">
+      <p class="title is-4">
+        Demonstrating robust continual depth completion: performance during adaptation from indoor (NYUv2) to outdoor (KITTI) environments.
+      </p>
     </div>
   </div>
 </section>
